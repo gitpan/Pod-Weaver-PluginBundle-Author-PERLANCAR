@@ -1,0 +1,102 @@
+Revision history for Pod-Weaver-PluginBundle-Author-PERLANCAR
+
+0.16    2014-11-08 (PERLANCAR)
+
+	- Add section: BashCompletion::PerinciCmdLine.
+
+
+0.15    2014-08-26 (PERLANCAR)
+
+        - Rename dist.
+
+
+0.14    2014-04-29 (SHARYANTO)
+
+        - Yet another wording change in VERSION section (remove 'module').
+
+
+0.13    2014-04-29 (SHARYANTO)
+
+        - Change wording in VERSION section ('distribution' -> 'Perl
+          distribution').
+
+
+0.12    2014-04-28 (SHARYANTO)
+
+        - Remove PWS::ReleaseDate, PWS::Version is perfectly capable of
+          displaying more than version number, including release date.
+
+
+0.11    2014-04-23 (SHARYANTO)
+
+        - Add plugin PWS::ReleaseDate.
+
+
+0.10    2014-04-12 (SHARYANTO)
+
+        - Add plugin bundle PWP::Author::SHARYANTO::NoPerinci (for lib-none,
+          since the Perinci plugin will fail to load it; and there is currently
+          no @Filter mechanism like in Dist::Zilla).
+
+
+0.09    2013-11-12 (SHARYANTO)
+
+        - Force version of Pod::Weaver::Section::Bugs::DefaultRT 0.03.
+
+
+0.08    2013-11-12 (SHARYANTO)
+
+        - Replace Encoding with SingleEncoding (thanks sergeyromanov). Require
+          Pod::Weaver 4.0.
+
+
+0.07    2013-11-08 (SHARYANTO)
+
+        - No functional changes. Force plugin versions.
+
+
+0.06    2013-10-31 (SHARYANTO)
+
+        - Add missing section: Version.
+
+
+0.05    2013-10-22 (SHARYANTO)
+
+        - Make this PW bundle usable for CPAN modules as well as non-CPAN
+          modules.
+
+        - Replace Availability with Homepage::DefaultCPAN.
+
+        - Replace SourceGitHub with Source::DefaultGitHub.
+
+        - Replace BugsRT with Bugs::DefaultRT.
+
+
+0.04    2013-10-19 (SHARYANTO)
+
+        - Rename from Pod-Weaver-PluginBundle-SHARYANTO to
+          Pod-Weaver-PluginBundle-Author-SHARYANTO.
+
+        - Add sections: Availability & SourceGitHub (because people reading the
+          POD and not sco/metacpan wouldn't realize that the module is hosted on
+          GitHub).
+
+        - Add section: BugsRT.
+
+        - Fix ordering.
+
+
+0.03    2013-04-10 (SHARYANTO)
+
+        - Add Encoding.
+
+
+0.02    2013-04-04 (SHARYANTO)
+
+        - No functional changes. Mark with /PW so that the log message source is
+          clear when doing e.g. 'dzil build -v'.
+
+
+0.01    2013-04-04 (SHARYANTO)
+
+        - First release.

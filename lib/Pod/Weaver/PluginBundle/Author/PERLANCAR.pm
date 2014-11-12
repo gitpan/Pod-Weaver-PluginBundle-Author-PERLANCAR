@@ -1,7 +1,7 @@
 package Pod::Weaver::PluginBundle::Author::PERLANCAR;
 
-our $DATE = '2014-11-08'; # DATE
-our $VERSION = '0.16'; # VERSION
+our $DATE = '2014-11-12'; # DATE
+our $VERSION = '0.17'; # VERSION
 
 use 5.010001;
 
@@ -30,6 +30,7 @@ sub mvp_bundle_config {
         [ '@Author::PERLANCAR/Leftovers', _exp('Leftovers'), {} ],
         [ '@Author::PERLANCAR/postlude',  _exp('Region'), { region_name => 'postlude' } ],
 
+        [ '@Author::PERLANCAR/BashCompletion::GetoptLongComplete', _exp('BashCompletion::GetoptLongComplete'), {} ],
         [ '@Author::PERLANCAR/BashCompletion::PerinciCmdLine', _exp('BashCompletion::PerinciCmdLine'), {} ],
 
         [ '@Author::PERLANCAR/Homepage::DefaultCPAN', _exp('Homepage::DefaultCPAN'), {} ],
@@ -59,7 +60,7 @@ Pod::Weaver::PluginBundle::Author::PERLANCAR - PERLANCAR's default Pod::Weaver c
 
 =head1 VERSION
 
-This document describes version 0.16 of Pod::Weaver::PluginBundle::Author::PERLANCAR (from Perl distribution Pod-Weaver-PluginBundle-Author-PERLANCAR), released on 2014-11-08.
+This document describes version 0.17 of Pod::Weaver::PluginBundle::Author::PERLANCAR (from Perl distribution Pod-Weaver-PluginBundle-Author-PERLANCAR), released on 2014-11-12.
 
 =head1 SYNOPSIS
 

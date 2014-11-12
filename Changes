@@ -1,5 +1,12 @@
 Revision history for Pod-Weaver-PluginBundle-Author-PERLANCAR
 
+0.17    2014-11-12 (PERLANCAR)
+
+	- Add section: BashCompletion::GetoptLongComplete.
+
+        - Forgot to add dependencies.
+
+
 0.16    2014-11-08 (PERLANCAR)
 
 	- Add section: BashCompletion::PerinciCmdLine.

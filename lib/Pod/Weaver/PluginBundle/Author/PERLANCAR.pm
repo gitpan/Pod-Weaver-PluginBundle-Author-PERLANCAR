@@ -1,7 +1,7 @@
 package Pod::Weaver::PluginBundle::Author::PERLANCAR;
 
-our $DATE = '2014-11-12'; # DATE
-our $VERSION = '0.17'; # VERSION
+our $DATE = '2014-11-21'; # DATE
+our $VERSION = '0.18'; # VERSION
 
 use 5.010001;
 
@@ -25,7 +25,7 @@ sub mvp_bundle_config {
         [ 'FUNCTIONS', _exp('Collect'), { command => 'func' } ],
         #[ 'TYPES', _exp('Collect'), { command => ' } ],
 
-        [ '@Author::PERLANCAR/Perinci', _exp('-Perinci'), {} ],
+        [ '@Author::PERLANCAR/Rinci', _exp('-Rinci'), {} ],
 
         [ '@Author::PERLANCAR/Leftovers', _exp('Leftovers'), {} ],
         [ '@Author::PERLANCAR/postlude',  _exp('Region'), { region_name => 'postlude' } ],
@@ -60,7 +60,7 @@ Pod::Weaver::PluginBundle::Author::PERLANCAR - PERLANCAR's default Pod::Weaver c
 
 =head1 VERSION
 
-This document describes version 0.17 of Pod::Weaver::PluginBundle::Author::PERLANCAR (from Perl distribution Pod-Weaver-PluginBundle-Author-PERLANCAR), released on 2014-11-12.
+This document describes version 0.18 of Pod::Weaver::PluginBundle::Author::PERLANCAR (from Perl distribution Pod-Weaver-PluginBundle-Author-PERLANCAR), released on 2014-11-21.
 
 =head1 SYNOPSIS
 

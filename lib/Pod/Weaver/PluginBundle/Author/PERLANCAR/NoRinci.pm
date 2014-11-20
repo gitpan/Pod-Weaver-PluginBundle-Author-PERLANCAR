@@ -1,7 +1,7 @@
-package Pod::Weaver::PluginBundle::Author::PERLANCAR::NoPerinci;
+package Pod::Weaver::PluginBundle::Author::PERLANCAR::NoRinci;
 
-our $DATE = '2014-11-12'; # DATE
-our $VERSION = '0.17'; # VERSION
+our $DATE = '2014-11-21'; # DATE
+our $VERSION = '0.18'; # VERSION
 
 use 5.010001;
 
@@ -54,11 +54,11 @@ __END__
 
 =head1 NAME
 
-Pod::Weaver::PluginBundle::Author::PERLANCAR::NoPerinci - PERLANCAR's default Pod::Weaver config
+Pod::Weaver::PluginBundle::Author::PERLANCAR::NoRinci - PERLANCAR's default Pod::Weaver config
 
 =head1 VERSION
 
-This document describes version 0.17 of Pod::Weaver::PluginBundle::Author::PERLANCAR::NoPerinci (from Perl distribution Pod-Weaver-PluginBundle-Author-PERLANCAR), released on 2014-11-12.
+This document describes version 0.18 of Pod::Weaver::PluginBundle::Author::PERLANCAR::NoRinci (from Perl distribution Pod-Weaver-PluginBundle-Author-PERLANCAR), released on 2014-11-21.
 
 =head1 SYNOPSIS
 

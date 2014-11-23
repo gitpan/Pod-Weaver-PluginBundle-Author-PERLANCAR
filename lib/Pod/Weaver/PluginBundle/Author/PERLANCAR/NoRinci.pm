@@ -1,7 +1,7 @@
 package Pod::Weaver::PluginBundle::Author::PERLANCAR::NoRinci;
 
-our $DATE = '2014-11-21'; # DATE
-our $VERSION = '0.18'; # VERSION
+our $DATE = '2014-11-23'; # DATE
+our $VERSION = '0.19'; # VERSION
 
 use 5.010001;
 
@@ -28,8 +28,8 @@ sub mvp_bundle_config {
         [ '@Author::PERLANCAR/Leftovers', _exp('Leftovers'), {} ],
         [ '@Author::PERLANCAR/postlude',  _exp('Region'), { region_name => 'postlude' } ],
 
-        [ '@Author::PERLANCAR/BashCompletion::GetoptLongComplete', _exp('BashCompletion::GetoptLongComplete'), {} ],
-        [ '@Author::PERLANCAR/BashCompletion::PerinciCmdLine', _exp('BashCompletion::PerinciCmdLine'), {} ],
+        [ '@Author::PERLANCAR/Completion::GetoptLongComplete', _exp('Completion::GetoptLongComplete'), {} ],
+        [ '@Author::PERLANCAR/Completion::PerinciCmdLine', _exp('Completion::PerinciCmdLine'), {} ],
 
         [ '@Author::PERLANCAR/Homepage::DefaultCPAN', _exp('Homepage::DefaultCPAN'), {} ],
         [ '@Author::PERLANCAR/Source::DefaultGitHub', _exp('Source::DefaultGitHub'), {} ],
@@ -58,7 +58,7 @@ Pod::Weaver::PluginBundle::Author::PERLANCAR::NoRinci - PERLANCAR's default Pod:
 
 =head1 VERSION
 
-This document describes version 0.18 of Pod::Weaver::PluginBundle::Author::PERLANCAR::NoRinci (from Perl distribution Pod-Weaver-PluginBundle-Author-PERLANCAR), released on 2014-11-21.
+This document describes version 0.19 of Pod::Weaver::PluginBundle::Author::PERLANCAR::NoRinci (from Perl distribution Pod-Weaver-PluginBundle-Author-PERLANCAR), released on 2014-11-23.
 
 =head1 SYNOPSIS
 

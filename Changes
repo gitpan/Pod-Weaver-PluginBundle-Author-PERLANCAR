@@ -1,8 +1,14 @@
 Revision history for Pod-Weaver-PluginBundle-Author-PERLANCAR
 
+0.19    2014-11-23 (PERLANCAR)
+
+	- Update to use new Pod-Weaver-Section-Completion-* instead of the
+	  old Pod-Weaver-Section-BashCompletion-* ones.
+
+
 0.18    2014-11-21 (PERLANCAR)
 
-	- Rename module: PWP::Perinci -> PWP::Rinci.
+        - Rename PWP::Perinci -> PWP::Rinci.
 
 
 0.17    2014-11-12 (PERLANCAR)
